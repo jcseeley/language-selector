@@ -130,29 +130,125 @@ $(document).ready(function() {
       $("#matthew").slideDown();
       $("#gorill").slideDown();
       $("#reset").slideDown();
-    } else if ((beverage === "Red Bull") && (celeb === "LeBron")) {
+    } else if ((beverage === "Red Bull") && (celeb === "LeBron") && (animal === "coon")) {
       $("#ruby").slideDown();
       $("#lebron").slideDown();
+      $("#racc").slideDown();
       $("#reset").slideDown();
-    } else if ((beverage === "Red Bull") && (celeb === "John")) {
+    } else if ((beverage === "Red Bull") && (celeb === "LeBron") && (animal === "bun")) {
+      $("#ruby").slideDown();
+      $("#lebron").slideDown();
+      $("#bunn").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Red Bull") && (celeb === "LeBron") && (animal === "squirrel")) {
+      $("#ruby").slideDown();
+      $("#lebron").slideDown();
+      $("#squir").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Red Bull") && (celeb === "LeBron") && (animal === "gorilla")) {
+      $("#ruby").slideDown();
+      $("#lebron").slideDown();
+      $("#gorill").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Red Bull") && (celeb === "John") && (animal === "coon")) {
       $("#ruby").slideDown();
       $("#john").slideDown();
+      $("#racc").slideDown();
       $("#reset").slideDown();
-    } else if ((beverage === "Beer") && (celeb === "Snoop")) {
+    } else if ((beverage === "Red Bull") && (celeb === "John") && (animal === "bun")) {
+      $("#ruby").slideDown();
+      $("#john").slideDown();
+      $("#bunn").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Red Bull") && (celeb === "John") && (animal === "squirrel")) {
+      $("#ruby").slideDown();
+      $("#john").slideDown();
+      $("#squir").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Red Bull") && (celeb === "John") && (animal === "gorilla")) {
+      $("#ruby").slideDown();
+      $("#john").slideDown();
+      $("#gorill").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "Snoop") && (animal === "coon")) {
       $("#python").slideDown();
       $("#snoop").slideDown();
+      $("#racc").slideDown();
       $("#reset").slideDown();
-    } else if ((beverage === "Beer") && (celeb === "Matt")) {
+    } else if ((beverage === "Beer") && (celeb === "Snoop") && (animal === "bun")) {
+      $("#python").slideDown();
+      $("#snoop").slideDown();
+      $("#bunn").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "Snoop") && (animal === "squirrel")) {
+      $("#python").slideDown();
+      $("#snoop").slideDown();
+      $("#squir").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "Snoop") && (animal === "gorilla")) {
+      $("#python").slideDown();
+      $("#snoop").slideDown();
+      $("#gorill").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "Matt") && (animal === "coon")) {
       $("#python").slideDown();
       $("#matthew").slideDown();
+      $("#racc").slideDown();
       $("#reset").slideDown();
-    } else if ((beverage === "Beer") && (celeb === "LeBron")) {
+    } else if ((beverage === "Beer") && (celeb === "Matt") && (animal === "bun")) {
+      $("#python").slideDown();
+      $("#matthew").slideDown();
+      $("#bunn").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "Matt") && (animal === "squirrel")) {
+      $("#python").slideDown();
+      $("#matthew").slideDown();
+      $("#squir").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "Matt") && (animal === "gorilla")) {
+      $("#python").slideDown();
+      $("#matthew").slideDown();
+      $("#gorill").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "LeBron") && (animal === "coon")) {
       $("#python").slideDown();
       $("#lebron").slideDown();
+      $("#racc").slideDown();
       $("#reset").slideDown();
-    } else if ((beverage === "Beer") && (celeb === "John")) {
+    } else if ((beverage === "Beer") && (celeb === "LeBron") && (animal === "bun")) {
+      $("#python").slideDown();
+      $("#lebron").slideDown();
+      $("#bunn").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "LeBron") && (animal === "squirrel")) {
+      $("#python").slideDown();
+      $("#lebron").slideDown();
+      $("#squir").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "LeBron") && (animal === "gorilla")) {
+      $("#python").slideDown();
+      $("#lebron").slideDown();
+      $("#gorill").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "John") && (animal === "coon")) {
       $("#python").slideDown();
       $("#john").slideDown();
+      $("#racc").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "John") && (animal === "bun")) {
+      $("#python").slideDown();
+      $("#john").slideDown();
+      $("#bunn").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "John") && (animal === "squirrel")) {
+      $("#python").slideDown();
+      $("#john").slideDown();
+      $("#squir").slideDown();
+      $("#reset").slideDown();
+    } else if ((beverage === "Beer") && (celeb === "John") && (animal === "gorilla")) {
+      $("#python").slideDown();
+      $("#john").slideDown();
+      $("#gorill").slideDown();
       $("#reset").slideDown();
     } else {
       $("#invalid").slideDown();
