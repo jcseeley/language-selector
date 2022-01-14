@@ -1,5 +1,10 @@
-#snooppic, #matthewpic, #lebronpic, #johnpic {
+#snooppic, #matthewpic, #lebronpic, #johnpic, #raccoonpic, #bunnypic, #squirrelpic, #gorillapic {
   max-width: 150px;
   border-style: solid;
   padding: 2px;
+}
+
+#celebrity {
+  float:left;
+  margin-right: 5%;
 }
