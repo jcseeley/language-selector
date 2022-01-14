@@ -14,6 +14,10 @@
       <h4>What language should you learn? Fill out the quiz to find out!</h4>
       <form id="quiz">
         
+        <div id="invalid">
+          <p>PLEASE FILL IN ALL FIELDS!</p>
+        </div>
+
         <div class= "form-group">
           <label for="name">Enter your name:</label>
           <input id="name" type="text">
@@ -27,10 +31,9 @@
         <div id="select-beverage" class= "form-group">
           <label for="beverage">Select a beverage:</label>
           <select id="beverage">
-            <option value="coffee">Coffee</option>
-            <option value="redbull">Red Bull</option>
-            <option value="beer">Beer</option>
-            <option value="wine">Wine</option>
+            <option>Coffee</option>
+            <option>Red Bull</option>
+            <option>Beer</option>
           </select>
         </div>
 
@@ -48,25 +51,25 @@
           <label>Choose a celebrity:</label>
           <div class="radio">
             <label>
-              <input type="radio" name="celebrity" value="Snoop Dogg" checked>
+              <input type="radio" name="celebrity" value="snoop" checked>
               <img id="snooppic" src="img/snooppic.jpg" alt="A picture of Snoop Dogg.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="celebrity" value="Matthew McConaughey">
+              <input type="radio" name="celebrity" value="matt">
               <img id="matthewpic" src="img/matthewpic.jpg" alt="A picture of Matthew McConaughey.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="celebrity" value="LeBron James">
+              <input type="radio" name="celebrity" value="lebron">
               <img id="lebronpic" src="img/lebronpic.jpg" alt="A picture of LeBron James.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="celebrity" value="John Mulaney">
+              <input type="radio" name="celebrity" value="john">
               <img id="johnpic" src="img/johnpic.jpg" alt="A picture of John Mulaney.">
             </label>
           </div>
@@ -76,32 +79,68 @@
           <label>Pick an animal:</label>
           <div class="radio">
             <label>
-              <input type="radio" name="animal" value="Raccoon" checked>
+              <input type="radio" name="animal" value="coon" checked>
               <img id="raccoonpic" src="img/raccoon.jpg" alt="A picture of a raccoon.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="animal" value="Bunny">
+              <input type="radio" name="animal" value="bun">
               <img id="bunnypic" src="img/bunny.jpeg" alt="A picture of a bunny.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="animal" value="Squirrel">
+              <input type="radio" name="animal" value="squirrel">
               <img id="squirrelpic" src="img/squirrel.jpg" alt="A picture of a squirrel.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="animal" value="Gorilla">
+              <input type="radio" name="animal" value="gorilla">
               <img id="gorillapic" src="img/gorilla.jpg" alt="A picture of a gorilla.">
             </label>
           </div>
         </div>
 
+        <button type="submit" class="btn-dark"> What language should I pick?</button>
+      
       </form>
     </div>
+
+    <div id="ruby">
+      <img id="rubygif" class="img-fluid" src="img/ruby.gif" alt="Gif of a spinning ruby.">
+    </div>
+
+    <div id="java">
+      <img id="javagif" class="img-fluid" src="img/java.gif" alt="Gif of coffee being poured.">
+    </div>
+
+    <div id="python">
+      <img id="pythongif" class="img-fluid" src="img/python.gif" alt="Gif of a snake nodding yes.">
+    </div>
+
+    <div id="snoop">
+      <img id="snoopgif" class="img-fluid" src="img/snoop.gif" alt="Gif of Snoop dog dancing.">
+    </div>
+
+    <div id="matthew">
+      <img id="matthewgif" class="img-fluid" src="img/matthew.gif" alt="Gif of Matthew McConaughey pounding his chest.">
+    </div>
+
+    <div id="lebron">
+      <img id="lebrongif" class="img-fluid" src="img/lebron.gif" alt="Gif of LeBron James screaming.">
+    </div>
+
+    <div id="john">
+      <img id="johngif" class="img-fluid" src="img/john.gif" alt="Gif of John Mulaney looking surprised.">
+    </div>
+
+    <div id="reset">
+      <button id="reset-quiz" class="btn-dark">RESET QUIZ</button>
+    </div>
+
+  </div>
 
 </body>
 </html>

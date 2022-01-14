@@ -8,3 +8,21 @@
   float:left;
   margin-right: 5%;
 }
+
+#ruby, #java, #python, #snoop, #matthew, #lebron, #john {
+  display: none; 
+  float: left;
+}
+
+#rubygif, #javagif, #pythongif, #snoopgif, #matthewgif, #lebrongif, #johngif {
+  max-width: 300px;
+}
+
+#reset {
+  display: none;
+  float: right;
+}
+
+#invalid {
+  display: none;
+}
