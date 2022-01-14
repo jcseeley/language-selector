@@ -20,6 +20,19 @@
   text-align: right;
 }
 
+#coongif, #bungif, #squirgif, #gorgif {
+  max-height: 175px;
+  border-style: solid;
+  padding: 2px;
+  margin: 5px;
+}
+
+#racc, #bunn, #squir, #gorill {
+  display: none;
+  float: left;
+  text-align: center;
+}
+
 #rubygif, #javagif, #pythongif, #snoopgif, #matthewgif, #lebrongif, #johngif {
   max-height: 175px;
   border-style: solid;
