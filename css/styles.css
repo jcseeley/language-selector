@@ -9,13 +9,22 @@
   margin-right: 5%;
 }
 
-#ruby, #java, #python, #snoop, #matthew, #lebron, #john {
+#ruby, #java, #python {
   display: none; 
   float: left;
 }
 
+#snoop, #matthew, #lebron, #john {
+  display: none;
+  float: left;
+  text-align: right;
+}
+
 #rubygif, #javagif, #pythongif, #snoopgif, #matthewgif, #lebrongif, #johngif {
-  max-width: 300px;
+  max-height: 175px;
+  border-style: solid;
+  padding: 2px;
+  margin: 5px;
 }
 
 #reset {
