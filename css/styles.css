@@ -28,7 +28,7 @@
 }
 
 #rubygif, #javagif, #pythongif, #snoopgif, #matthewgif, #lebrongif, #johngif, #coongif, #bungif, #squirgif, #gorgif  {
-  max-height: 150px;
+  max-height: 200px;
   border-style: solid;
   padding: 2px;
   margin: 5px;
