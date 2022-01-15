@@ -30,7 +30,7 @@ $(document).ready(function() {
       $("#snoop").slideDown();
       $("#gorill").slideDown();
       $("#reset").slideDown();
-    } else if ((beverage === "Red Bull") && (celeb === "Matt") && (animal === "coon")) {
+    } else if ((beverage === "Coffee") && (celeb === "Matt") && (animal === "coon")) {
       $("#java").slideDown();
       $("#matthew").slideDown();
       $("#racc").slideDown();
