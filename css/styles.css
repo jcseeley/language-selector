@@ -18,6 +18,7 @@
   display: none;
   float: left;
   text-align: right;
+  margin: auto;
 }
 
 #racc, #bunn, #squir, #gorill {
@@ -27,7 +28,7 @@
 }
 
 #rubygif, #javagif, #pythongif, #snoopgif, #matthewgif, #lebrongif, #johngif, #coongif, #bungif, #squirgif, #gorgif  {
-  max-height: 175px;
+  max-height: 150px;
   border-style: solid;
   padding: 2px;
   margin: 5px;
@@ -42,7 +43,7 @@
   display: none;
 }
 
-body {
+.black {
   background-color: black;
   color: aqua;
 }
@@ -54,4 +55,9 @@ body {
 h1 {
   text-align: center;
   text-decoration: underline;
+}
+
+
+#output {
+  font-size: x-large;
 }
