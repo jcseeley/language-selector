@@ -43,11 +43,6 @@
   display: none;
 }
 
-.black {
-  background-color: black;
-  color: aqua;
-}
-
 #expand {
   text-align: center;
 }
@@ -57,7 +52,34 @@ h1 {
   text-decoration: underline;
 }
 
-
 #output {
   font-size: x-large;
 }
+
+body {
+  background-color: darkslategray;
+  color: burlywood;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.red {
+  background-color: darkred;
+  color: white;
+}
+
+.green {
+  background-color: darkgreen;
+  color: blanchedalmond;
+}
+
+.blue {
+  background-color: darkblue;
+  color: beige;
+}
+
+.black {
+  background-color: black;
+  color: aqua;
+}
+
