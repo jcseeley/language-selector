@@ -10,23 +10,24 @@
 <body>
   <div class="container">
     <h1>Programming Language Selector</h1> 
+    <p id="expand">** EXPAND YOUR BROWSER WINDOW FOR BEST RESULTS! **</p>
     <div id="hide-quiz">
       <h4>What language should you learn? Fill out the quiz to find out!</h4>
       <form id="quiz">
         
         <div class= "form-group">
           <label for="name">Enter your name:</label>
-          <input id="name" type="text">
+          <input id="name" type="text" required>
         </div>
 
         <div class= "form-group">
           <label for="number">Enter a number:</label>
-          <input id="number" type="text">
+          <input id="number" type="text" required>
         </div>
         
         <div id="select-beverage" class= "form-group">
           <label for="beverage">Select a beverage:</label>
-          <select id="beverage">
+          <select id="beverage" required>
             <option></option>
             <option>Coffee</option>
             <option>Red Bull</option>
@@ -36,7 +37,7 @@
 
         <div id="select-color" class= "form-group">
           <label for="color">Select a color:</label>
-          <select id="color">
+          <select id="color" required>
             <option></option>
             <option value="red">Red</option>
             <option value="green">Green</option>
@@ -133,17 +134,17 @@
 
     <div id="bunn">
       <img id="bungif" class="img-fluid" src="img/bun.gif" alt="Gif of a bunny in a cubicle.">
-      <p>"You're a book bunny...</p>
+      <p>"You're quick as a bunny...</p>
     </div>
 
     <div id="squir">
       <img id="squirgif" class="img-fluid" src="img/squir.gif" alt="Gif of a squirrel eating nuts.">
-      <p>"You're as nutty as a squirrel...</p>
+      <p>"You're nutty as a squirrel...</p>
     </div>
 
     <div id="gorill">
       <img id="gorgif" class="img-fluid" src="img/gorill.gif" alt="Gif of a gorilla eating boogers.">
-      <p>"You're a gross gorilla...</p>
+      <p>"You're a 'gold digger'...</p>
     </div>
 
     <div id="ruby">
@@ -158,7 +159,7 @@
 
     <div id="python">
       <img id="pythongif" class="img-fluid" src="img/python.gif" alt="Gif of a snake nodding yes.">
-      <p>and you're as slick as a snake! Learn Python!"</p>
+      <p>and slick as a snake! Learn Python!"</p>
     </div>
 
     <div id="reset">
@@ -168,8 +169,6 @@
     <div id="invalid">
       <p>PLEASE FILL IN ALL FIELDS!</p>
     </div>
-
   </div>
-
 </body>
 </html>

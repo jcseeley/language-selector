@@ -271,5 +271,5 @@ $(document).ready(function() {
       $("#squir").fadeOut();
       $("#gorill").fadeOut();
     });
-    });
   });
+});
