@@ -28,11 +28,13 @@
         
         <div id="select-beverage" class= "form-group">
           <label for="beverage">Select a beverage:</label>
-          <select id="beverage" required>
+          <select id="beverage">
             <option></option>
             <option>Coffee</option>
             <option>Red Bull</option>
             <option>Beer</option>
+            <option>Soda</option>
+            <option>Water</option>
           </select>
         </div>
 
@@ -44,6 +46,8 @@
             <option value="green">Green</option>
             <option value="blue">Blue</option>
             <option value="black">Black</option>
+            <option value="pink">Pink</option>
+            <option value="purple">Purple</option>
           </select>
         </div>
 
@@ -51,25 +55,25 @@
           <label>Choose a celebrity:</label>
           <div class="radio">
             <label>
-              <input type="radio" name="celebrity" value="Snoop">
+              <input type="radio" name="celebrity" value="#snoop" checked>
               <img id="snooppic" src="img/snooppic.jpg" alt="A picture of Snoop Dogg.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="celebrity" value="Matt">
+              <input type="radio" name="celebrity" value="#matthew">
               <img id="matthewpic" src="img/matthewpic.jpg" alt="A picture of Matthew McConaughey.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="celebrity" value="LeBron">
+              <input type="radio" name="celebrity" value="#lebron">
               <img id="lebronpic" src="img/lebronpic.jpg" alt="A picture of LeBron James.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="celebrity" value="John">
+              <input type="radio" name="celebrity" value="#john">
               <img id="johnpic" src="img/johnpic.jpg" alt="A picture of John Mulaney.">
             </label>
           </div>
@@ -79,25 +83,25 @@
           <label>Pick an animal:</label>
           <div class="radio">
             <label>
-              <input type="radio" name="animal" value="coon">
+              <input type="radio" name="animal" value="#racc" checked>
               <img id="raccoonpic" src="img/raccoon.jpg" alt="A picture of a raccoon.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="animal" value="bun">
+              <input type="radio" name="animal" value="#bunn">
               <img id="bunnypic" src="img/bunny.jpeg" alt="A picture of a bunny.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="animal" value="squirrel">
+              <input type="radio" name="animal" value="#squir">
               <img id="squirrelpic" src="img/squirrel.jpg" alt="A picture of a squirrel.">
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" name="animal" value="gorilla">
+              <input type="radio" name="animal" value="#gorill">
               <img id="gorillapic" src="img/gorilla.jpg" alt="A picture of a gorilla.">
             </label>
           </div>
@@ -167,16 +171,22 @@
       <p>and slick as a snake! Learn Python!"</p>
     </div>
 
+    <div id="rust">
+      <img id="rustgif" class="img-fluid" src="img/rust.gif" alt="Gif of a car falling apart.">
+      <p>and you've got it together! Learn Rust!"</p>
+    </div>
+
+    <div id="swift">
+      <img id="swiftgif" class="img-fluid" src="img/swift.gif" alt="Gif of ash blowing in Dude's face.">
+      <p>and you'll breeze through! Learn Swift!"</p>
+    </div>
+
     <div id="reset">
       <button id="reset-quiz" type="button" class="btn-dark" onClick="window.location.reload();">SHOW QUIZ FORM</button>
     </div>
 
-    <div id="text">
-      <h3><span id="output"></span></h3>
-    </div>
-
     <div id="invalid">
-      <p>PLEASE SELECT A CELEBRITY AND AN ANIMAL!</p>
+      <p>PLEASE FILL IN ALL FIELDS!</p>
     </div>
   </div>
 

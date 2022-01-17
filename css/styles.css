@@ -9,7 +9,7 @@
   margin-right: 5%;
 }
 
-#ruby, #java, #python {
+#ruby, #java, #python, #swift, #rust {
   display: none; 
   float: left;
 }
@@ -27,8 +27,8 @@
   text-align: center;
 }
 
-#rubygif, #javagif, #pythongif, #snoopgif, #matthewgif, #lebrongif, #johngif, #coongif, #bungif, #squirgif, #gorgif  {
-  max-height: 200px;
+#rubygif, #javagif, #pythongif, #snoopgif, #matthewgif, #lebrongif, #johngif, #coongif, #bungif, #squirgif, #gorgif, #rustgif, #swiftgif {
+  max-height: 175px;
   border-style: solid;
   padding: 2px;
   margin: 5px;
@@ -41,6 +41,7 @@
 
 #invalid {
   display: none;
+  text-align: center;
 }
 
 #expand {
@@ -81,5 +82,15 @@ body {
 .black {
   background-color: black;
   color: aqua;
+}
+
+.pink {
+  background-color: pink;
+  color: black;
+}
+
+.purple {
+  background-color: blueviolet;
+  color: darkgray;
 }
 
