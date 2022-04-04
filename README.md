@@ -2,7 +2,8 @@
 
 #### By Jase Seeley
 
-#### A quiz to help you decide which coding language to learn.
+#### Epicodus Week #2 Independent Code Review: JavaScript and jQuery   
+* A quiz to help you decide which coding language to learn.
 
 ## Technologies Used
 
